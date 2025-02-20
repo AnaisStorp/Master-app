@@ -5,11 +5,9 @@ I am passionate about **Data Science, Artificial Intelligence, and Business Anal
 My goal is to combine **advanced machine learning techniques** with **real-world business applications** to drive innovation and decision-making.  
 
 ## 🚀 Skills & Technologies
-🔹 Python, R, SQL, Bash  
+🔹 Python, SQL, Latex, HTML  
 🔹 Machine Learning & Deep Learning (TensorFlow, Scikit-learn, PyTorch)  
-🔹 Data Analysis & Visualization (Pandas, Matplotlib, Seaborn, Tableau)  
-🔹 Web Scraping (BeautifulSoup, Selenium)  
-🔹 Cloud & Big Data (AWS, Spark, Hadoop)  
+🔹 Data Analysis & Visualization (Pandas, Matplotlib, Seaborn, Tableau)   
 
 ## 📊 Key Projects
 ✅ **CNN for Image Classification (French)** – Deep Learning with Keras & TensorFlow  
