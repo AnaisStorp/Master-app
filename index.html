@@ -4,39 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anaïs Storp - Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Open+Sans&display=swap" rel="stylesheet">
+    
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Open Sans', sans-serif;
             text-align: center;
-            margin: 50px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #2c3e50;
         }
-        h1 { color: #2c3e50; }
-        a { color: #3498db; text-decoration: none; font-weight: bold; }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            color: #1e3a5f;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            color: #1e3a5f;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            font-size: 1.1em;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        .email {
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
 
-    <h1>Welcome to my Portfolio!</h1>
-    <p>Hi, I'm Anaïs Storp, and I'm passionate about Data Science & AI for Business.</p>
+    <div class="container">
 
-    <h2>📂 My Projects</h2>
-    <ul>
-        <li><a href="university_projects/Project_CNN_fr/index.html">🧠 Project: CNN (French)</a></li>
-        <li><a href="university_projects/Project_exploring_databases_fr/index.html">📊 Project: Exploring Databases (French)</a></li>
-        <li><a href="university_projects/Project_global_airline_network/index.html">✈️ Project: Airline Network (French)</a></li>
-    </ul>
+        <h1>Welcome to my Portfolio!</h1>
+        <p>Hi, I'm <strong>Anaïs Storp</strong>, passionate about <em>Data Science & AI for Business</em>.</p>
 
-    <h2>📄 CVs & Application Documents</h2>
-    <ul>
-        <li><a href="CV/cv eng anais copy.pdf">📄 English CV</a></li>
-        <li><a href="CV/cv_fr_anais.pdf">📄 French CV</a></li>
-	<li><a href="CV/Lebenslauf.pdf">📄 German CV</a></li>
-    </ul>
+        <div class="card">
+            <h2>📂 My Projects</h2>
+            <ul>
+                <li><a href="university_projects/Project_CNN_fr/index.html">🧠 Project: CNN (French)</a></li>
+                <li><a href="university_projects/Project_exploring_databases_fr/index.html">📊 Exploring Databases (French)</a></li>
+                <li><a href="university_projects/Project_global_airline_network/index.html">✈️ Airline Network (French)</a></li>
+            </ul>
+        </div>
 
-    <h2>📬 Contact</h2>
-    <p>Email: Anaisstorp@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/anais-storp-711aa922b/">LinkedIn</a></p>
+        <div class="card">
+            <h2>📄 CVs & Application Documents</h2>
+            <ul>
+                <li><a href="CV/cv_eng_anais.pdf">📄 English CV</a></li>
+                <li><a href="CV/cv_fr_anais.pdf">📄 French CV</a></li>
+                <li><a href="CV/Lebenslauf.pdf">📄 German CV</a></li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>📚 Academic Grades</h2>
+            <p>Here you can find my academic performance in various subjects.</p>
+            <ul>
+                <li><a href="Grades/S3_majeure_chimie.pdf">📜 Semester 3 - Chemistry & Data Science</a></li>
+                <li><a href="Grades/S4_majeure_chimie.pdf">📜 Semester 4 - Chemistry & AI</a></li>
+                <li><a href="Grades/S5_notes.pdf">📜 Semester 5 - Advanced Topics</a></li>
+            </ul>
+        </div>
+
+        <div class="card contact-info">
+            <h2>📬 Contact</h2>
+            <p>Email: <span class="email">Anaisstorp@gmail.com</span></p>
+            <p><a href="https://www.linkedin.com/in/anais-storp-711aa922b/">LinkedIn Profile</a></p>
+        </div>
+
+    </div>
 
 </body>
 </html>
-
