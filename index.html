@@ -15,18 +15,18 @@
 
     <style>
         body {
-            background-color: #DC97A5;
-            color: #0B1957;
+            background-color: #FADED2;
+            color: #845747;
             font-family: 'Nunito', sans-serif;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
         }
         
-        /* Header Styling */
+        /* Header-Stil */
         header {
-            background-color: #DC97A5;
-            padding: 15px 25px;
+            background-color: #845747;
+            padding: 25px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -38,25 +38,29 @@
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
         .logo {
-            width: 80px;
+            width: 120px;
+            margin-left: 20px;
         }
         nav ul {
             list-style: none;
+            padding: 0;
             display: flex;
             gap: 20px;
-            margin: 0;
-            padding: 0;
+            margin-right: 20px;
+        }
+        nav ul li {
+            display: inline;
         }
         nav ul li a {
             text-decoration: none;
-            color: #0B1957;
+            color: white;
             font-size: 18px;
-            padding: 10px 15px;
+            padding: 10px 12px;
             transition: 0.3s;
         }
         nav ul li a:hover {
-            background-color: #0B1957;
-            color: #DC97A5;
+            background-color: white;
+            color: #845747;
             border-radius: 5px;
         }
         
@@ -68,20 +72,22 @@
             padding: 120px 50px 50px;
             max-width: 90%;
             margin: auto;
-            flex-wrap: wrap;
         }
         .hero-text {
             flex: 1;
             text-align: left;
+            max-width: 500px;
         }
         .profile-pic {
-            width: 180px;
-            height: 180px;
+            width: 140px;
+            height: 140px;
             object-fit: cover;
             border-radius: 10px;
+            margin-left: 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
         
-        /* Sections */
+        /* Allgemeine Sektionen */
         section {
             padding: 80px 50px;
             max-width: 900px;
@@ -89,34 +95,22 @@
             text-align: center;
         }
         h1, h2 {
-            color: #0B1957;
+            color: #845747;
+        }
+        
+        /* Contact Section Fix */
+        #contact {
+            max-width: 600px;
+            margin: auto;
         }
         
         /* Footer */
         footer {
-            background-color: #DC97A5;
+            background-color: #845747;
             padding: 15px;
             text-align: center;
             margin-top: 50px;
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                text-align: center;
-            }
-            nav ul {
-                flex-direction: column;
-                padding-top: 10px;
-            }
-            #hero {
-                flex-direction: column;
-                text-align: center;
-            }
-            .profile-pic {
-                margin: 20px 0;
-            }
+            color: white;
         }
     </style>
 </head>
@@ -148,8 +142,15 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I am currently pursuing my studies in <strong>Data Science & AI for Business</strong> at HEC. My focus is on applying AI and machine learning techniques to solve business challenges and optimize decision-making.</p>
+        <p>I am currently pursuing my studies in **Data Science & AI for Business** at HEC. My focus is on applying AI and machine learning techniques to solve business challenges and optimize decision-making.</p>
         <p>My passion for data-driven insights drives me to explore innovative solutions in business intelligence and automation.</p>
+    </section>
+
+    <!-- Contact Section Fix -->
+    <section id="contact">
+        <h2>📬 Contact</h2>
+        <p>Email: <strong>Anaisstorp@gmail.com</strong></p>
+        <p><a href="https://www.linkedin.com/in/anais-storp-711aa922b/">LinkedIn Profile</a></p>
     </section>
 
     <!-- Footer -->
