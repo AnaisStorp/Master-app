@@ -1,97 +1,106 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anaïs Storp - Portfolio</title>
 
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-
     <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
 </head>
+<body>
 
-<body id="top">
-    <div id="page" class="s-pagewrap ss-home">
-        <header class="s-header">
-            <div class="row s-header__inner width-sixteen-col">
-                <div class="s-header__block">
-                    <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            <img src="images/logo.svg" alt="Homepage">
-                        </a>
-                    </div>
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-                </div>
-                <nav class="s-header__nav">
-                    <ul class="s-header__menu-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#grades">Grades</a></li>
-                        <li><a href="#cv">CV</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html"><img src="images/anais_logo.png" alt="Logo" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#grades">Grades</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <section id="intro" class="s-intro">
-            <div class="row s-intro__content width-sixteen-col">
-                <div class="column lg-12 s-intro__content-inner grid-block">
-                    <div class="s-intro__content-text">
-                        <h1 class="s-intro__content-title">Welcome to My Portfolio!</h1>
-                        <p>Hi, I'm <strong>Anaïs Storp</strong>, passionate about <em>Data Science & AI for Business</em>.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio!</h1>
+            <p>Hi, I'm <strong>Anaïs Storp</strong>, passionate about <em>Data Science & AI for Business</em>.</p>
+            <img src="images/image_port.png" alt="Profile Picture" class="profile-pic">
+        </div>
+    </section>
 
-        <section id="projects" class="s-section">
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
             <h2>📂 My Projects</h2>
-            <ul>
-                <li><a href="university_projects/Project_CNN_fr/index.html">🧠 Project: CNN (French)</a></li>
-                <li><a href="university_projects/Project_exploring_databases_fr/index.html">📊 Exploring Databases (French)</a></li>
-                <li><a href="university_projects/Project_global_airline_network/index.html">✈️ Airline Network (French)</a></li>
-            </ul>
-        </section>
+            <div class="project">
+                
+                <h3>🧠 Project: CNN (French)</h3>
+                <p>Neural network model trained on handwritten digits.</p>
+                <a href="university_projects/Project_CNN_fr/index.html">View Project</a>
+            </div>
+            <div class="project">
+               
+                <h3>📊 Exploring Databases (French)</h3>
+                <p>Data analytics and database exploration.</p>
+                <a href="university_projects/Project_exploring_databases_fr/index.html">View Project</a>
+            </div>
+            <div class="project">
+                
+                <h3>✈️ Airline Network (French)</h3>
+                <p>Analysis of global airline networks.</p>
+                <a href="university_projects/Project_global_airline_network/index.html">View Project</a>
+            </div>
+        </div>
+    </section>
 
-        <section id="grades" class="s-section">
+    <!-- Grades Section -->
+    <section id="grades">
+        <div class="container">
             <h2>📚 Academic Grades</h2>
-            <p>Here are my grades from different semesters:</p>
             <ul>
                 <li><a href="Grades/S3_majeure_chimie.pdf">📜 S3 - Chemistry & Data Science</a></li>
                 <li><a href="Grades/S4_majeure_chimie.pdf">📜 S4 - Chemistry & AI</a></li>
                 <li><a href="Grades/S5_notes.pdf">📜 S5 - Advanced Topics</a></li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section id="cv" class="s-section">
+    <!-- CV Section -->
+    <section id="cv">
+        <div class="container">
             <h2>📄 CVs & Application Documents</h2>
             <ul>
                 <li><a href="CV/cv_eng_anais.pdf">📄 English CV</a></li>
                 <li><a href="CV/cv_fr_anais.pdf">📄 French CV</a></li>
                 <li><a href="CV/Lebenslauf.pdf">📄 German CV</a></li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section id="contact" class="s-section">
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
             <h2>📬 Contact</h2>
             <p>Email: <strong>Anaisstorp@gmail.com</strong></p>
             <p><a href="https://www.linkedin.com/in/anais-storp-711aa922b/">LinkedIn Profile</a></p>
-        </section>
+        </div>
+    </section>
 
-    </div>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Anaïs Storp. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
