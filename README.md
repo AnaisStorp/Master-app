@@ -1,39 +1,22 @@
-# 🎓 Master Application Repository - MSc Data Science & AI for Business (X-HEC)  
-
-This repository contains all important documents related to my Master's applications, including:  
-
-✅ **CVs** (English, French, and German versions)  
-✅ **Transcripts & Grades**  
-✅ **University Projects**  
-✅ **English Proficiency Certificates**  
-
+# 🎓 Master's Application - Data Science & AI for Business (X-HEC)
 
 ## 📌 About Me  
 I am passionate about **Data Science, Artificial Intelligence, and Business Analytics**.  
 My goal is to combine **advanced machine learning techniques** with **real-world business applications** to drive innovation and decision-making.  
 
-I am applying for the **MSc Data Science & AI for Business at X-HEC**, as I believe this program perfectly aligns with my academic background and career aspirations.  
+## 🚀 Skills & Technologies
+🔹 Python, R, SQL, Bash  
+🔹 Machine Learning & Deep Learning (TensorFlow, Scikit-learn, PyTorch)  
+🔹 Data Analysis & Visualization (Pandas, Matplotlib, Seaborn, Tableau)  
+🔹 Web Scraping (BeautifulSoup, Selenium)  
+🔹 Cloud & Big Data (AWS, Spark, Hadoop)  
 
-## 📂 Repository Structure  
-📁 CV/
-📄 cv_eng_anais.pdf (English)
-📄 cv_fr_anais.pdf (French)
-📄 Lebenslauf.pdf (German)
-
-📁 Grades/
-📄 Academic transcripts
-
-📁 University_Projects/
-📄 CNN project
-📄 Global airline network analysis
-📄 Database project
-
-📁 English_Certificate/
-📄 Cambridge Certificate
+## 📊 Key Projects
+✅ **CNN for Image Classification (French)** – Deep Learning with Keras & TensorFlow  
+✅ **Exploring Databases (French)** – SQL & Database Management  
+✅ **Airline Network Analysis (French)** – Graph Theory & Data Science  
 
 ## 📬 Contact  
-📧 Email: anaisstorp@gmai.com  
-🔗 LinkedIn: www.linkedin.com/in/anais-storp-711aa922b 
-
----
-📝 *This repository is meant for organizational purposes and to track my progress during my Master's applications.*
+📧 Email: [your.email@example.com]  
+🔗 LinkedIn: [linkedin.com/in/yourprofile]  
+🌍 Portfolio: [yourwebsite.com] *(if applicable)*  
