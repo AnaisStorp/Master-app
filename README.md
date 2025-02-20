@@ -17,6 +17,6 @@ My goal is to combine **advanced machine learning techniques** with **real-world
 ✅ **Airline Network Analysis (French)** – Graph Theory & Data Science  
 
 ## 📬 Contact  
-📧 Email: [your.email@example.com]  
-🔗 LinkedIn: [linkedin.com/in/yourprofile]  
-🌍 Portfolio: [yourwebsite.com] *(if applicable)*  
+📧 Email: [anaisstorp@gmail.com]  
+🔗 LinkedIn: [[linkedin.com/in/yourprofile](https://www.linkedin.com/in/anais-storp-711aa922b/)]  
+🌍 Portfolio: [yourwebsite.com]  
