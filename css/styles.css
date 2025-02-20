@@ -23,12 +23,21 @@ ul {
     padding: 0;
 }
 
-.project img, .profile-pic {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+#hero {
+    display: flex; /* Aktiviert flexbox */
+    align-items: center; /* Zentriert Inhalt vertikal */
+    justify-content: flex-start; /* Elemente nach links ausrichten */
+    padding: 50px 20px;
+    max-width: 80%;
+    margin: auto;
 }
+
+.profile-pic {
+    width: 180px; /* Reduziert die Größe des Bildes */
+    border-radius: 50%; /* Macht das Bild rund */
+    margin-right: 20px; /* Abstand zum Text */
+}
+
 
 footer {
     background: #2c3e50;
