@@ -1,9 +1,11 @@
 /* Allgemeine Stile */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: #0A192F;
+    color: white;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
