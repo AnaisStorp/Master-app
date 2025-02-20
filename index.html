@@ -8,23 +8,24 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/anais_logo.png">
 
     <style>
         body {
-            background-color: #0B1957; /* Dunkelblauer Hintergrund */
-            color: white;
-            font-family: 'Rubik', sans-serif;
+            background-color: #DC97A5; /* Rosa Hintergrund */
+            color: #0B1957; /* Dunkelblauer Text */
+            font-family: 'Nunito', sans-serif;
             margin: 0;
             padding: 0;
         }
         
         /* Header-Stil */
         header {
-            background-color: #0B1957;
-            padding: 20px;
+            background-color: #DC97A5;
+            padding: 25px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -35,7 +36,7 @@
             z-index: 1000;
         }
         .logo {
-            width: 80px;
+            width: 100px; /* Logo größer */
             margin-left: 20px;
         }
         nav ul {
@@ -46,14 +47,14 @@
         }
         nav ul li a {
             text-decoration: none;
-            color: #DC97A5;
+            color: #0B1957;
             font-size: 18px;
             padding: 10px 15px;
             transition: 0.3s;
         }
         nav ul li a:hover {
-            background-color: #DC97A5;
-            color: #0B1957;
+            background-color: #0B1957;
+            color: #DC97A5;
             border-radius: 5px;
         }
 
@@ -62,7 +63,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 100px 50px 50px;
+            padding: 120px 50px 50px;
             max-width: 90%;
             margin: auto;
         }
@@ -71,11 +72,19 @@
             text-align: left;
         }
         .profile-pic {
-            width: 250px;
-            height: 250px;
+            width: 200px; /* Bild kleiner */
+            height: 200px;
             object-fit: cover;
             border-radius: 10px;
             margin-left: 50px;
+        }
+        
+        /* About Section */
+        #about {
+            text-align: left;
+            max-width: 900px;
+            margin: auto;
+            padding: 80px 50px;
         }
         
         /* Sektionen */
@@ -83,15 +92,14 @@
             padding: 80px 50px;
             max-width: 900px;
             margin: auto;
-            text-align: center;
         }
         h1, h2 {
-            color: #DC97A5;
+            color: #0B1957;
         }
         
         /* Footer */
         footer {
-            background-color: #0B1957;
+            background-color: #DC97A5;
             padding: 15px;
             text-align: center;
             margin-top: 50px;
@@ -123,7 +131,12 @@
         <img src="images/image_port.png" alt="Profile Picture" class="profile-pic">
     </section>
 
-    <!-- Weitere Abschnitte bleiben unverändert -->
-    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing my studies in **Data Science & AI for Business** at HEC. My focus is on applying AI and machine learning techniques to solve business challenges and optimize decision-making.</p>
+        <p>My passion for data-driven insights drives me to explore innovative solutions in business intelligence and automation.</p>
+    </section>
+
 </body>
 </html>
