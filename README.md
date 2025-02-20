@@ -24,8 +24,9 @@ I am applying for the **MSc Data Science & AI for Business at X-HEC**, as I beli
 📄 Academic transcripts
 
 📁 University_Projects/
-📄 Machine Learning Project
-📄 Data Analysis Report
+📄 CNN project
+📄 Global airline network analysis
+📄 Database project
 
 📁 English_Certificate/
 📄 Cambridge Certificate
