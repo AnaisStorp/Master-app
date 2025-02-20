@@ -9,6 +9,6 @@ All materials, including the Jupyter Notebook and final report, are **written in
 - Training and optimizing neural networks  
 
 📂 **Files Included:**  
-- `KerasMnist.ipynb` → Jupyter Notebook with Python code  
+- `KerasMnist.ipynb` → Jupyter Notebook with Python code    
 
 📝 *This project was completed as part of my academic coursework, demonstrating my ability to work with deep learning models and image recognition.*  
