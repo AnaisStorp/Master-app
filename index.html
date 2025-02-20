@@ -26,7 +26,7 @@
         /* Header-Stil */
         header {
             background-color: #845747;
-            padding: 25px;
+            padding: 15px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -38,15 +38,13 @@
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
         .logo {
-            width: 120px;
-            margin-left: 20px;
+            width: 90px;
         }
         nav ul {
             list-style: none;
             padding: 0;
             display: flex;
-            gap: 20px;
-            margin-right: 20px;
+            gap: 15px;
         }
         nav ul li {
             display: inline;
@@ -54,8 +52,8 @@
         nav ul li a {
             text-decoration: none;
             color: white;
-            font-size: 18px;
-            padding: 10px 12px;
+            font-size: 16px;
+            padding: 10px;
             transition: 0.3s;
         }
         nav ul li a:hover {
@@ -63,7 +61,7 @@
             color: #845747;
             border-radius: 5px;
         }
-        
+
         /* Hero Section */
         #hero {
             display: flex;
@@ -76,32 +74,23 @@
         .hero-text {
             flex: 1;
             text-align: left;
-            max-width: 500px;
         }
         .profile-pic {
-            width: 140px;
-            height: 140px;
+            width: 130px;
+            height: 130px;
             object-fit: cover;
             border-radius: 10px;
             margin-left: 50px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
         
         /* Allgemeine Sektionen */
         section {
-            padding: 80px 50px;
+            padding: 60px 50px;
             max-width: 900px;
             margin: auto;
-            text-align: center;
         }
         h1, h2 {
             color: #845747;
-        }
-        
-        /* Contact Section Fix */
-        #contact {
-            max-width: 600px;
-            margin: auto;
         }
         
         /* Footer */
@@ -110,7 +99,6 @@
             padding: 15px;
             text-align: center;
             margin-top: 50px;
-            color: white;
         }
     </style>
 </head>
@@ -142,8 +130,54 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I am currently pursuing my studies in **Data Science & AI for Business** at HEC. My focus is on applying AI and machine learning techniques to solve business challenges and optimize decision-making.</p>
-        <p>My passion for data-driven insights drives me to explore innovative solutions in business intelligence and automation.</p>
+        <p>I am passionate about Data Science, Artificial Intelligence, and Business Analytics.</p>
+        <p>My goal is to combine advanced machine learning techniques with real-world business applications to drive innovation and decision-making.</p>
+        <h3>🚀 Skills & Technologies</h3>
+        <ul>
+            <li>🔹 Python, SQL, LaTeX, HTML</li>
+            <li>🔹 Machine Learning & Deep Learning (TensorFlow, Scikit-learn, PyTorch)</li>
+            <li>🔹 Data Analysis & Visualization (Pandas, Matplotlib, Seaborn, Tableau)</li>
+        </ul>
+    </section>#
+
+        <!-- Projects Section -->
+    <section id="projects">
+        <h2>📂 My Projects</h2>
+        <div class="project">
+            <h3>🧠 Project: CNN (French)</h3>
+            <p>Neural network model trained on handwritten digits.</p>
+            <a href="university_projects/Project_CNN_fr/index.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>📊 Exploring Databases (French)</h3>
+            <p>Data analytics and database exploration.</p>
+            <a href="university_projects/Project_exploring_databases_fr/index.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>✈️ Airline Network (French)</h3>
+            <p>Analysis of global airline networks.</p>
+            <a href="university_projects/Project_global_airline_network/index.html">View Project</a>
+        </div>
+    </section>
+
+        <!-- Grades Section -->
+    <section id="grades">
+        <h2>📚 Academic Grades</h2>
+        <ul>
+            <li><a href="Grades/S3_majeure_chimie.pdf">📜 S3 - Chemistry & Data Science</a></li>
+            <li><a href="Grades/S4_majeure_chimie.pdf">📜 S4 - Chemistry & AI</a></li>
+            <li><a href="Grades/S5_notes.pdf">📜 S5 - Advanced Topics</a></li>
+        </ul>
+    </section>
+
+        <!-- CV Section -->
+    <section id="cv">
+        <h2>📄 CVs & Application Documents</h2>
+        <ul>
+            <li><a href="CV/cv_eng_anais.pdf">📄 English CV</a></li>
+            <li><a href="CV/cv_fr_anais.pdf">📄 French CV</a></li>
+            <li><a href="CV/Lebenslauf.pdf">📄 German CV</a></li>
+        </ul>
     </section>
 
     <!-- Contact Section Fix -->
