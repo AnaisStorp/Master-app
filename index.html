@@ -11,90 +11,136 @@
 
     <!-- Favicons -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
+
+    <style>
+        body {
+            background-color: #0A192F; /* Dark Blue */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #112240;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 50px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #233554;
+            border-radius: 5px;
+        }
+        #hero {
+            padding: 50px 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        a {
+            color: #64ffda;
+        }
+        footer {
+            background-color: #112240;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
     <!-- Navigation -->
-    <header class="header">
-        <div class="container">
-            <a href="index.html"><img src="images/anais_logo.png" alt="Logo" class="logo"></a>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#grades">Grades</a></li>
-                    <li><a href="#cv">CV</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header>
+        <a href="index.html"><img src="images/logo.svg" alt="Logo" class="logo"></a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#grades">Grades</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="container">
-            <h1>Welcome to My Portfolio!</h1>
-            <p>Hi, I'm <strong>Anaïs Storp</strong>, passionate about <em>Data Science & AI for Business</em>.</p>
-            <img src="images/image_port.png" alt="Profile Picture" class="profile-pic">
-        </div>
+        <h1>Welcome to My Portfolio!</h1>
+        <p>Hi, I'm <strong>Anaïs Storp</strong>, passionate about <em>Data Science & AI for Business</em>.</p>
+        <img src="images/image_port.png" alt="Profile Picture" class="profile-pic">
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <div class="container">
-            <h2>📂 My Projects</h2>
-            <div class="project">
-                
-                <h3>🧠 Project: CNN (French)</h3>
-                <p>Neural network model trained on handwritten digits.</p>
-                <a href="university_projects/Project_CNN_fr/index.html">View Project</a>
-            </div>
-            <div class="project">
-               
-                <h3>📊 Exploring Databases (French)</h3>
-                <p>Data analytics and database exploration.</p>
-                <a href="university_projects/Project_exploring_databases_fr/index.html">View Project</a>
-            </div>
-            <div class="project">
-                
-                <h3>✈️ Airline Network (French)</h3>
-                <p>Analysis of global airline networks.</p>
-                <a href="university_projects/Project_global_airline_network/index.html">View Project</a>
-            </div>
+        <h2>📂 My Projects</h2>
+        <div class="project">
+            <h3>🧠 Project: CNN (French)</h3>
+            <p>Neural network model trained on handwritten digits.</p>
+            <a href="university_projects/Project_CNN_fr/index.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>📊 Exploring Databases (French)</h3>
+            <p>Data analytics and database exploration.</p>
+            <a href="university_projects/Project_exploring_databases_fr/index.html">View Project</a>
+        </div>
+        <div class="project">
+            <h3>✈️ Airline Network (French)</h3>
+            <p>Analysis of global airline networks.</p>
+            <a href="university_projects/Project_global_airline_network/index.html">View Project</a>
         </div>
     </section>
 
     <!-- Grades Section -->
     <section id="grades">
-        <div class="container">
-            <h2>📚 Academic Grades</h2>
-            <ul>
-                <li><a href="Grades/S3_majeure_chimie.pdf">📜 S3 - Chemistry & Data Science</a></li>
-                <li><a href="Grades/S4_majeure_chimie.pdf">📜 S4 - Chemistry & AI</a></li>
-                <li><a href="Grades/S5_notes.pdf">📜 S5 - Advanced Topics</a></li>
-            </ul>
-        </div>
+        <h2>📚 Academic Grades</h2>
+        <ul>
+            <li><a href="Grades/S3_majeure_chimie.pdf">📜 S3 - Chemistry & Data Science</a></li>
+            <li><a href="Grades/S4_majeure_chimie.pdf">📜 S4 - Chemistry & AI</a></li>
+            <li><a href="Grades/S5_notes.pdf">📜 S5 - Advanced Topics</a></li>
+        </ul>
     </section>
 
     <!-- CV Section -->
     <section id="cv">
-        <div class="container">
-            <h2>📄 CVs & Application Documents</h2>
-            <ul>
-                <li><a href="CV/cv_eng_anais.pdf">📄 English CV</a></li>
-                <li><a href="CV/cv_fr_anais.pdf">📄 French CV</a></li>
-                <li><a href="CV/Lebenslauf.pdf">📄 German CV</a></li>
-            </ul>
-        </div>
+        <h2>📄 CVs & Application Documents</h2>
+        <ul>
+            <li><a href="CV/cv_eng_anais.pdf">📄 English CV</a></li>
+            <li><a href="CV/cv_fr_anais.pdf">📄 French CV</a></li>
+            <li><a href="CV/Lebenslauf.pdf">📄 German CV</a></li>
+        </ul>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="container">
-            <h2>📬 Contact</h2>
-            <p>Email: <strong>Anaisstorp@gmail.com</strong></p>
-            <p><a href="https://www.linkedin.com/in/anais-storp-711aa922b/">LinkedIn Profile</a></p>
-        </div>
+        <h2>📬 Contact</h2>
+        <p>Email: <strong>Anaisstorp@gmail.com</strong></p>
+        <p><a href="https://www.linkedin.com/in/anais-storp-711aa922b/">LinkedIn Profile</a></p>
     </section>
 
     <!-- Footer -->
